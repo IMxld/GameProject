@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97f5ef204271604990c0360bdc51658, type: 3}
+  m_Name: BossStarSprite
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: a1490417af47aec4e9b18dadb0095bec, type: 3}
+  - {fileID: 21300000, guid: ea373d63da4c15742ac6098dcb4c1409, type: 3}
+  - {fileID: 21300000, guid: 2366829d40ee0094994c0456e2e8da6b, type: 3}
+  - {fileID: 21300000, guid: 2480727bdebdd1148b4219cf08d54923, type: 3}
+  - {fileID: 21300000, guid: e3b9617749b5a524f8502e6dd30450b8, type: 3}

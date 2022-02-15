@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97f5ef204271604990c0360bdc51658, type: 3}
+  m_Name: BookSprites
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: 6a88594036ead44429c78a6dadf57756, type: 3}
+  - {fileID: 21300000, guid: 190700fa531fa4b4a8b1236f74c9f320, type: 3}
+  - {fileID: 21300000, guid: 7faef1f105eafbe40b39e10d76552070, type: 3}
+  - {fileID: 21300000, guid: f0d5d8f27a11a0f48b394cde6f977931, type: 3}
+  - {fileID: 21300000, guid: 72d4467d43dc0ab478651a2652437bab, type: 3}
+  - {fileID: 21300000, guid: 36c7391598035814494b54dc82a895ce, type: 3}

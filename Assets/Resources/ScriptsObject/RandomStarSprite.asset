@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b97f5ef204271604990c0360bdc51658, type: 3}
+  m_Name: RandomStarSprite
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: e1fd8ce20ba1674489162d58efcc134f, type: 3}
+  - {fileID: 21300000, guid: fda874f9aaa248649b8fcb44462adcfa, type: 3}
+  - {fileID: 21300000, guid: 6b56bb8a3747a5e43a843c6bb8e13b6e, type: 3}
+  - {fileID: 21300000, guid: e0a696b8c98440847b3433d9c3fc2ab4, type: 3}
+  - {fileID: 21300000, guid: b86c18ff5ce31f44c9d0f0bd2b885190, type: 3}
+  - {fileID: 21300000, guid: 9a9ad4ecd3730274c9758848fe7f5aaf, type: 3}
+  - {fileID: 21300000, guid: 60fc28f6b0d7f134e98a770e007287df, type: 3}
