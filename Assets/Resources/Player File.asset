@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a220646ab82b5478fae1a61b02119d, type: 3}
+  m_Name: Player File
+  m_EditorClassIdentifier: 
+  playerControllers:
+  - CreateCharacterNum: 0
+    FileNum: 0
+    OriginalCharactersCount: 0
+    Property: 0
+    FansCount: 0
+    RoutinePayment: 0
+    WeekTime: 0
+    CharactersLibrary: []
+    DramaLibrary: []
+    RecruitList: 
+    RecruitCharacters: []
+    FileTime: 
+    LastWeekPlayNum: 0
+    LastWeekIncome: 0
+    LastWeekFans: 0
+    LastWeekAudience: 0
+    LastWeekActorAdd: 0
+    ActorAdd: 0
+    LastWeekActorPay: 0
+    LastWeekRoutinePay: 0
+    LastWeekDrama: 0
+    DramaAdd: 0
+  - CreateCharacterNum: 0
+    FileNum: 0
+    OriginalCharactersCount: 0
+    Property: 0
+    FansCount: 0
+    RoutinePayment: 0
+    WeekTime: 0
+    CharactersLibrary: []
+    DramaLibrary: []
+    RecruitList: 
+    RecruitCharacters: []
+    FileTime: 
+    LastWeekPlayNum: 0
+    LastWeekIncome: 0
+    LastWeekFans: 0
+    LastWeekAudience: 0
+    LastWeekActorAdd: 0
+    ActorAdd: 0
+    LastWeekActorPay: 0
+    LastWeekRoutinePay: 0
+    LastWeekDrama: 0
+    DramaAdd: 0
+  - CreateCharacterNum: 0
+    FileNum: 0
+    OriginalCharactersCount: 0
+    Property: 0
+    FansCount: 0
+    RoutinePayment: 0
+    WeekTime: 0
+    CharactersLibrary: []
+    DramaLibrary: []
+    RecruitList: 
+    RecruitCharacters: []
+    FileTime: 
+    LastWeekPlayNum: 0
+    LastWeekIncome: 0
+    LastWeekFans: 0
+    LastWeekAudience: 0
+    LastWeekActorAdd: 0
+    ActorAdd: 0
+    LastWeekActorPay: 0
+    LastWeekRoutinePay: 0
+    LastWeekDrama: 0
+    DramaAdd: 0

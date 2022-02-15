@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09dd582c05492cb4299bea184d681043, type: 3}
+  m_Name: Characters Pool
+  m_EditorClassIdentifier: 
+  Characters:
+  - Name: "\u5FEB\u4E50\u6708\u732B"
+    Degree: "\u732B\u4E0D\u9700\u8981\u5B66\u5386"
+    Age: 22
+    Background: "\u6211\u662F\u4E00\u53EA\u732B\uFF0C\u5FEB\u4E50\u7684\u6708\u732B~\u5468\u56F4\u5192\u6C14\u6CE1\uFF0C\u97F3\u4E50\u7684\u7B26\u53F7~\u867D\u7136\u662F\u732B\uFF0C\u4F46\u6BD4\u8D77\u6F14\u732B\uFF0C\u66F4\u64C5\u957F\u6F14\u72D7\u3002"
+    CharacterLevel: 0
+    ComeFrom: 
+    EntryName: 
+    EntryImfo: 
+    EntryPool: 
+    EntryNum: 0
+    EntrySprite: {fileID: 0}
+    MaxStamina: 100
+    CurrentStamina: 100
+    StaminaDecreaseSpeed: -30
+    StaminaRecoverSpeed: 15
+    EmployPrice: 0
+    Salary: 0
+    PerfectValue: 0
+    VaribleBackup: []
+    IsPlaying: 0
+    CharacterSprite: {fileID: 21300000, guid: 43f6ae8032d8e9548b9687e9d6206b00, type: 3}
+    CharacterChooseSprite: {fileID: 21300000, guid: b99c72e60168f8445ba8289038ecfb17, type: 3}
+    CurrentDrama: {fileID: 0}
+    CurrentPlayerController:
+      CreateCharacterNum: 0
+      FileNum: 0
+      OriginalCharactersCount: 2
+      Property: 500
+      FansCount: 0
+      RoutinePayment: 0
+      WeekTime: 1
+      CharactersLibrary: []
+      DramaLibrary: []
+      RecruitList: 000000
+      RecruitCharacters: []
+      FileTime: 
+  - Name: "\u77F3\u854A\u8BD5\u6DB2"
+    Degree: "\u6E05\u534E\u5927\u5B66\u5316\u5B66\u4E0E\u5DE5\u7A0B\u535A\u58EB"
+    Age: 22
+    Background: "\u96BE\u5F97\u4E00\u89C1\u7684\u5316\u5B66\u5929\u624D\uFF0C\u56DB\u5E74\u5C31\u5B8C\u6210\u4E86\u6E05\u534E\u672C\u7855\u535A\u7684\u653B\u8BFB\u3002\u5948\u4F55\u5728\u751F\u5316\u73AF\u6750\u5E76\u79F0\u56DB\u5927\u5929\u5751\u7684\u4F1F\u5927\u768421\u4E16\u7EAA\uFF0C\u535A\u58EB\u6BD5\u4E1A\u4E5F\u627E\u4E0D\u5230\u5DE5\u4F5C\uFF0C\u5F85\u4E1A\u671F\u95F4\u53EA\u597D\u6765\u5F53\u4E34\u65F6\u6F14\u5458\u3002\u9664\u4E86\u79D1\u7814\u4EC0\u4E48\u90FD\u4E0D\u4F1A\uFF0C\u64C5\u957F\u6F14\u5C38\u4F53\u3001\u6B7B\u4E86\u4E00\u5468\u7684\u5C38\u4F53\u8FD8\u6709\u6B7B\u4E86\u4E00\u4E2A\u6708\u7684\u5C38\u4F53\u3002"
+    CharacterLevel: 0
+    ComeFrom: 
+    EntryName: 
+    EntryImfo: 
+    EntryPool: 
+    EntryNum: 0
+    EntrySprite: {fileID: 0}
+    MaxStamina: 100
+    CurrentStamina: 100
+    StaminaDecreaseSpeed: -30
+    StaminaRecoverSpeed: 15
+    EmployPrice: 0
+    Salary: 0
+    PerfectValue: 0
+    VaribleBackup: []
+    IsPlaying: 0
+    CharacterSprite: {fileID: 21300000, guid: 759a8ec2ba68acf4ea487eee734f3c10, type: 3}
+    CharacterChooseSprite: {fileID: 21300000, guid: eec4a1450cf88b44e8bdf4e3081696d5, type: 3}
+    CurrentDrama: {fileID: 0}
+    CurrentPlayerController:
+      CreateCharacterNum: 0
+      FileNum: 0
+      OriginalCharactersCount: 2
+      Property: 500
+      FansCount: 0
+      RoutinePayment: 0
+      WeekTime: 1
+      CharactersLibrary: []
+      DramaLibrary: []
+      RecruitList: 000000
+      RecruitCharacters: []
+      FileTime: 
+  - Name: "\u8001\u82F9\u679C"
+    Degree: "\u4E0A\u6D77\u620F\u5267\u5B66\u9662\u672C\u79D1\u5728\u8BFB"
+    Age: 20
+    Background: "B\u7AD9\u751F\u6D3B\u533A\u3001\u6E38\u620F\u533A\u5341\u516B\u7EBF\u5C0Fup\uFF0C\u6700\u5927\u7684\u68A6\u60F3\u5C31\u662F\u4E00\u70AE\u800C\u7EA2\u5E72\u6389\u67D0\u4F4DID\u5F88\u50CF\u7684\u4E00\u54E5\u3002\u8FD9\u6B21\u60F3\u5230\u4E00\u4E2A\u4F53\u9A8C\u5267\u7EC4\u751F\u6D3B\u7684\u89C6\u9891\u9898\u6750\uFF0C\u4E00\u62CD\u8111\u888B\u5C31\u6295\u4E86\u7B80\u5386\u3002"
+    CharacterLevel: 0
+    ComeFrom: 
+    EntryName: 
+    EntryImfo: 
+    EntryPool: 
+    EntryNum: 0
+    EntrySprite: {fileID: 0}
+    MaxStamina: 100
+    CurrentStamina: 100
+    StaminaDecreaseSpeed: -30
+    StaminaRecoverSpeed: 15
+    EmployPrice: 0
+    Salary: 0
+    PerfectValue: 0
+    VaribleBackup: []
+    IsPlaying: 0
+    CharacterSprite: {fileID: 21300000, guid: c997bdbc60bd25e45926b6a5d5396b35, type: 3}
+    CharacterChooseSprite: {fileID: 21300000, guid: 7ee47f4b9c33fcb4fa36864bc1df3ea2, type: 3}
+    CurrentDrama: {fileID: 0}
+    CurrentPlayerController:
+      CreateCharacterNum: 0
+      FileNum: 0
+      OriginalCharactersCount: 2
+      Property: 500
+      FansCount: 0
+      RoutinePayment: 0
+      WeekTime: 1
+      CharactersLibrary: []
+      DramaLibrary: []
+      RecruitList: 000000
+      RecruitCharacters: []
+      FileTime: 
+  - Name: "\u514B\u91CC\u65AF"
+    Degree: "\u67D0\u85E4\u6821\u91D1\u878D\u5B66\u672C\u79D1"
+    Age: 21
+    Background: "\u867D\u7136\u540C\u6837\u53EBKris\u4F46\u662F\u8DDF\u67D0\u6839\u7259\u7B7E\u4E00\u6BDB\u94B1\u5173\u7CFB\u90FD\u6CA1\u6709\u3002\u7238\u7238\u8D85\u6709\u94B1\uFF0C\u5988\u5988\u8D85\u6709\u94B1\uFF0C\u514B\u91CC\u65AF\u672C\u4EBA\u4E5F\u8D85\u6709\u94B1\u3002\u514B\u91CC\u65AF\u89C9\u5F97\u6709\u94B1\u4EBA\u7684\u751F\u6D3B\u5B9E\u5728\u662F\u592A\u8FC7\u67AF\u71E5\u65E0\u5473\uFF0C\u60F3\u4F53\u9A8C\u4E00\u4E0B\u8D85\u7EA7\u7A77\u4EBA\u7684\u751F\u6D3B\uFF0C\u4E8E\u662F\u4ED6\u7ED9\u6574\u6761\u8857\u4E0A\u770B\u8D77\u6765\u6700\u7834\u7684\u90A3\u4E2A\u5267\u573A\u6295\u4E86\u7B80\u5386\u3002"
+    CharacterLevel: 0
+    ComeFrom: 
+    EntryName: 
+    EntryImfo: 
+    EntryPool: 
+    EntryNum: 0
+    EntrySprite: {fileID: 0}
+    MaxStamina: 100
+    CurrentStamina: 100
+    StaminaDecreaseSpeed: -30
+    StaminaRecoverSpeed: 15
+    EmployPrice: 0
+    Salary: 0
+    PerfectValue: 0
+    VaribleBackup: []
+    IsPlaying: 0
+    CharacterSprite: {fileID: 21300000, guid: 8ee1d2b72c732474b9c43c68c94be8b8, type: 3}
+    CharacterChooseSprite: {fileID: 21300000, guid: a57bd3b4e04a4e948a4f98188d71fc25, type: 3}
+    CurrentDrama: {fileID: 0}
+    CurrentPlayerController:
+      CreateCharacterNum: 0
+      FileNum: 0
+      OriginalCharactersCount: 2
+      Property: 500
+      FansCount: 0
+      RoutinePayment: 0
+      WeekTime: 1
+      CharactersLibrary: []
+      DramaLibrary: []
+      RecruitList: 000000
+      RecruitCharacters: []
+      FileTime: 
+  - Name: "\u9AD8\u97F3\u672A\u6765"
+    Degree: "\u9AD8\u4E2D"
+    Age: 18
+    Background: "\u4E50\u534E\u516C\u53F8\u7684\u7EC3\u4E60\u751F\uFF0C\u7EC3\u4E60\u65F6\u957F\u6574\u6574\u4E24\u5E74\u534A\u4E86\u8FD8\u6CA1\u6709\u51FA\u9053\u673A\u4F1A\uFF0C\u6BCF\u5929\u90FD\u5728\u8BC5\u5492\u4E50\u534E\u65E9\u65E5\u5012\u95ED\u3002\u5531\u8DF3\u80FD\u529B\u4FF1\u4F73\uFF0C\u80FD\u529B\u4E00\u6D41\uFF0C\u64C5\u957F\u89D2\u8272\u6709\uFF1A\u56DB\u5343\u5E74\u7F8E\u5C11\u5973\u3001\u50BB\u767D\u751C\u7F8E\u5C11\u5973\u3001\u7F8E\u5F3A\u60E8\u7F8E\u5C11\u5973\u7B49\u5404\u7C7B\u7F8E\u5C11\u5973\u89D2\u8272\u3002"
+    CharacterLevel: 0
+    ComeFrom: 
+    EntryName: 
+    EntryImfo: 
+    EntryPool: 
+    EntryNum: 0
+    EntrySprite: {fileID: 0}
+    MaxStamina: 100
+    CurrentStamina: 100
+    StaminaDecreaseSpeed: -30
+    StaminaRecoverSpeed: 15
+    EmployPrice: 0
+    Salary: 0
+    PerfectValue: 0
+    VaribleBackup: []
+    IsPlaying: 0
+    CharacterSprite: {fileID: 21300000, guid: b6fbc3c00b5dfcd41a64cb9af406dfbd, type: 3}
+    CharacterChooseSprite: {fileID: 21300000, guid: 7689c9621ca255244ae36b42b8a5fd0a, type: 3}
+    CurrentDrama: {fileID: 0}
+    CurrentPlayerController:
+      CreateCharacterNum: 0
+      FileNum: 0
+      OriginalCharactersCount: 2
+      Property: 500
+      FansCount: 0
+      RoutinePayment: 0
+      WeekTime: 1
+      CharactersLibrary: []
+      DramaLibrary: []
+      RecruitList: 000000
+      RecruitCharacters: []
+      FileTime: 
+  - Name: "\u8C0F\u4E09\u521B"
+    Degree: "\u5317\u4EAC\u7535\u5F71\u5B66\u9662\u7F16\u5BFC\u7CFB\u9AD8\u6750\u751F"
+    Age: 20
+    Background: "\u9B3C\u624D\u7F16\u5267\uFF0C\u6BCF\u521B\u4F5C\u4E00\u4E2A\u5267\u672C\u90FD\u80FD\u5E26\u52A8\u5200\u7247\u4EA7\u4E1A\u7684GDP\u87BA\u65CB\u5347\u5929\u987A\u4FBF\u6D6A\u8D39\u56FD\u5BB6\u5B9D\u8D35\u7684\u91D1\u5C5E\u8D44\u6E90\u3002\u636E\u8BF4\u5DF2\u7ECF\u9760\u5728\u95F2\u9C7C\u4E0A\u4E70\u5200\u7247\u4ED8\u4E86\u5317\u4EAC\u4E09\u73AF\u7684\u9996\u4ED8\u3002\u6765\u5F53\u6F14\u5458\u662F\u4E3A\u4E86\u5199\u51FA\u80FD\u8D5A\u5230\u66F4\u591A\u5200\u7247\u7684\u5267\u672C\u3002"
+    CharacterLevel: 0
+    ComeFrom: 
+    EntryName: 
+    EntryImfo: 
+    EntryPool: 
+    EntryNum: 0
+    EntrySprite: {fileID: 0}
+    MaxStamina: 100
+    CurrentStamina: 100
+    StaminaDecreaseSpeed: -30
+    StaminaRecoverSpeed: 15
+    EmployPrice: 0
+    Salary: 0
+    PerfectValue: 0
+    VaribleBackup: []
+    IsPlaying: 0
+    CharacterSprite: {fileID: 21300000, guid: 635f6cf8c2b136a488d7e25ab434715a, type: 3}
+    CharacterChooseSprite: {fileID: 21300000, guid: 0e151a57daf446b4faa1765f177fcf09, type: 3}
+    CurrentDrama: {fileID: 0}
+    CurrentPlayerController:
+      CreateCharacterNum: 0
+      FileNum: 0
+      OriginalCharactersCount: 2
+      Property: 500
+      FansCount: 0
+      RoutinePayment: 0
+      WeekTime: 1
+      CharactersLibrary: []
+      DramaLibrary: []
+      RecruitList: 000000
+      RecruitCharacters: []
+      FileTime: 
+  - Name: 44
+    Degree: "B\u7AD9\u5927\u5B66\u672C\u79D1"
+    Age: 18
+    Background: "\u636E\u8BF4\u662F\u67D0\u7AD9\u5409\u7965\u726922\u300133\u5A18\u7684\u8FDC\u623F\u4EB2\u621A\u3002\u4E0D\u8981\u62D6\u6B20\u4EBA\u5BB6\u5DE5\u8D44\u54E6\uFF0C\u5C0F\u5FC3\u9648\u53D4\u53D4\u987A\u7740\u7F51\u7EBF\u8FC7\u6765\u5236\u88C1\u4F60\u3002"
+    CharacterLevel: 0
+    ComeFrom: 
+    EntryName: 
+    EntryImfo: 
+    EntryPool: 
+    EntryNum: 0
+    EntrySprite: {fileID: 0}
+    MaxStamina: 100
+    CurrentStamina: 100
+    StaminaDecreaseSpeed: -30
+    StaminaRecoverSpeed: 15
+    EmployPrice: 0
+    Salary: 0
+    PerfectValue: 0
+    VaribleBackup: []
+    IsPlaying: 0
+    CharacterSprite: {fileID: 21300000, guid: e0c386d40690e0948ac8876959cdc476, type: 3}
+    CharacterChooseSprite: {fileID: 21300000, guid: 243c6057728e30541beceee397807610, type: 3}
+    CurrentDrama: {fileID: 0}
+    CurrentPlayerController:
+      CreateCharacterNum: 0
+      FileNum: 0
+      OriginalCharactersCount: 2
+      Property: 500
+      FansCount: 0
+      RoutinePayment: 0
+      WeekTime: 1
+      CharactersLibrary: []
+      DramaLibrary: []
+      RecruitList: 000000
+      RecruitCharacters: []
+      FileTime: 
+  - Name: "\u66FE\u7237\u7237"
+    Degree: "\u4E0D\u8BE6"
+    Age: "\u4E0D\u8BE6"
+    Background: "\u4F60\u8FC7\u4E16\u5DF2\u4E45\u7684\u66FE\u7237\u7237\u3002\u5728\u5730\u4E0B\u542C\u8BF4\u4F60\u7238\u6B20\u4E0B\u5DE8\u503A\u4EBA\u95F4\u84B8\u53D1\u540E\u88AB\u6C14\u5F97\u8BC8\u5C38\u4E86\u3002\u5F88\u6B23\u8D4F\u6F14\u5C38\u4F53\u6F14\u5F97\u6BD4\u81EA\u5DF1\u8FD8\u597D\u7684\u77F3\u854A\u8BD5\u6DB2\u3002"
+    CharacterLevel: 0
+    ComeFrom: 
+    EntryName: 
+    EntryImfo: 
+    EntryPool: 
+    EntryNum: 0
+    EntrySprite: {fileID: 0}
+    MaxStamina: 100
+    CurrentStamina: 100
+    StaminaDecreaseSpeed: -30
+    StaminaRecoverSpeed: 15
+    EmployPrice: 0
+    Salary: 0
+    PerfectValue: 0
+    VaribleBackup: []
+    IsPlaying: 0
+    CharacterSprite: {fileID: 21300000, guid: 0340ebc1b7914434eaf7c6fc4ce26ebe, type: 3}
+    CharacterChooseSprite: {fileID: 21300000, guid: 430bc273846750c4caf8274acaf41b4d, type: 3}
+    CurrentDrama: {fileID: 0}
+    CurrentPlayerController:
+      CreateCharacterNum: 0
+      FileNum: 0
+      OriginalCharactersCount: 2
+      Property: 500
+      FansCount: 0
+      RoutinePayment: 0
+      WeekTime: 1
+      CharactersLibrary: []
+      DramaLibrary: []
+      RecruitList: 000000
+      RecruitCharacters: []
+      FileTime: 
+  - Name: "\u90ED\u656C\u6697"
+    Degree: "\u5317\u4EAC\u7535\u5F71\u5B66\u9662\u672C\u79D1\u6BD5\u4E1A"
+    Age: 30
+    Background: "\u8D85\u4EBA\u6C14\u6F14\u5458\uFF0C\u51ED\u501F\u5165\u6728\u4E09\u5206\u7684\u6F14\u6280\u65A9\u83B7\u4E86\u7535\u5F71\u754C\u5404\u5927\u5956\u9879\uFF0C\u53EA\u6709\u4F60\u4ED8\u4E0D\u8D77\u7684\u7247\u916C\uFF0C\u6CA1\u6709\u4ED6\u5E26\u4E0D\u52A8\u7684\u7968\u623F\u3002\u4EE3\u8868\u4F5C\uFF1A\u300A\u5927\u65F6\u4EE31\u300B\u3001\u300A\u5927\u65F6\u4EE32\u300B\u3001\u300A\u5927\u65F6\u4EE33\u300B\u3001\u300A\u5927\u65F6\u4EE34\u300B\u3002"
+    CharacterLevel: 0
+    ComeFrom: 
+    EntryName: 
+    EntryImfo: 
+    EntryPool: 
+    EntryNum: 0
+    EntrySprite: {fileID: 0}
+    MaxStamina: 100
+    CurrentStamina: 100
+    StaminaDecreaseSpeed: -30
+    StaminaRecoverSpeed: 15
+    EmployPrice: 0
+    Salary: 0
+    PerfectValue: 0
+    VaribleBackup: []
+    IsPlaying: 0
+    CharacterSprite: {fileID: 21300000, guid: 4c28160981d3f93498a6b5dffd31d43e, type: 3}
+    CharacterChooseSprite: {fileID: 21300000, guid: f5c57f2165202de469488bd92311dba4, type: 3}
+    CurrentDrama: {fileID: 0}
+    CurrentPlayerController:
+      CreateCharacterNum: 0
+      FileNum: 0
+      OriginalCharactersCount: 2
+      Property: 500
+      FansCount: 0
+      RoutinePayment: 0
+      WeekTime: 1
+      CharactersLibrary: []
+      DramaLibrary: []
+      RecruitList: 000000
+      RecruitCharacters: []
+      FileTime: 
+  - Name: "\u5938\u514B"
+    Degree: "\u5317\u4EAC\u5927\u5B66\u7269\u7406\u5B66\u535A\u58EB"
+    Age: 28
+    Background: "\u4E0D\u662F\u5938\u514B\u6D4F\u89C8\u5668\uFF01\u662F\u5938\u514B\uFF01\u5B66\u91CF\u5B50\u7269\u7406\u5B66\u79C3\u4E86\u534A\u8FB9\u5218\u6D77\uFF0C\u4E3A\u4E86\u4FDD\u4F4F\u81EA\u5DF1\u5B9D\u8D35\u7684\u5934\u53D1\uFF0C\u6BC5\u7136\u51B3\u7136\u51B3\u5B9A\u8F6C\u884C\uFF01"
+    CharacterLevel: 0
+    ComeFrom: 
+    EntryName: 
+    EntryImfo: 
+    EntryPool: 
+    EntryNum: 0
+    EntrySprite: {fileID: 0}
+    MaxStamina: 100
+    CurrentStamina: 100
+    StaminaDecreaseSpeed: -30
+    StaminaRecoverSpeed: 15
+    EmployPrice: 0
+    Salary: 0
+    PerfectValue: 0
+    VaribleBackup: []
+    IsPlaying: 0
+    CharacterSprite: {fileID: 21300000, guid: bb6bd789b26c82d4083cb77404274bc0, type: 3}
+    CharacterChooseSprite: {fileID: 21300000, guid: cb21f92c615e6174cb24668535b4cb46, type: 3}
+    CurrentDrama: {fileID: 0}
+    CurrentPlayerController:
+      CreateCharacterNum: 0
+      FileNum: 0
+      OriginalCharactersCount: 2
+      Property: 500
+      FansCount: 0
+      RoutinePayment: 0
+      WeekTime: 1
+      CharactersLibrary: []
+      DramaLibrary: []
+      RecruitList: 000000
+      RecruitCharacters: []
+      FileTime: 
